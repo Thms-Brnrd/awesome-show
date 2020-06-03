@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/_next/(.*)", "destination": "https://shows-list.now.sh/_next/$1" },
+    { "source": "/(.*)", "destination": "https://shows-list.now.sh/awesome-show/$1?isRewriting=true" }
+  ]
+}
